@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "heating-model"
+version = "0.1.0"
+description = "Simple optimisation program to optimise the power of a heater to heat a house"
+authors = ["Miguel Manuel de Villena <m.manueldevillena@gmail.com>"]
+readme = "README.md"
+packages = [{include = "heating_model"}]
+
+[tool.poetry.dependencies]
+python = "3.10.6"
+numpy = "^1.23.4"
+Pyomo = "^6.4.2"
+toml = "^0.10.2"
+matplotlib = "^3.6.2"
+pandas = "^1.5.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+flake8 = "^5.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
