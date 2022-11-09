@@ -1,0 +1,10 @@
+initial_temperature = 22 # Initial temperature in Celsius
+temperature_bounds = [ 21, 25 ] # Temperature bounds in Celsius
+power_bounds = [ 4, 8 ] # Power of the heater in kW
+cooling_coefficient = 0.2 # Cooling coeficient in 1/h
+heating_coefficient = 0.25 # Heating coefficient in Celsius/kWh
+cardinality_horizon = 96 # Cardinality of the horizon in hours
+step_size = 0.25 # Step size of the horizon (resolution) in hours
+conversion_factor = 1e-3 # Conversion from kW to MW
+
+variables = ["temperature_house", "power_heater"]
