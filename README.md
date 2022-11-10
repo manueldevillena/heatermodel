@@ -34,11 +34,12 @@ source <MY_ENV>/bin/activate
 
 Most commercial solvers deal with LPs. CBC is the recommended solver as it is open source, although gurobi has been tested as well. To install CBC:
 
-- ArchLinux (and Manjaro): `sudo pacman -S coin-or-cbc`
+- Arch based distros: `sudo pacman -S coin-or-cbc`
 
+- Debian based distros: `sudo apt install coinor-cbc`
+ 
 - MacOS: `brew tap coin-or-tools/coinor && brew install cbc`
 
-- Ubuntu: `sudo apt install coinor-cbc`
 
 ### Run the code
 
