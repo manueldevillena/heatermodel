@@ -13,15 +13,15 @@ This program is written in Python 3.10.6, and requires a commercial solver (e.g.
 This quick start guide does not go through the Python installation. However, I recommend the use of `pyenv` for this. Check the github page on this [link](https://github.com/pyenv/pyenv).
 
 ### Install Python environment
-The Python environment is based on Poetry, although pip can also be used to make it work (not tested).
+The Python environment is based on `Poetry`, although `pip` can also be used to make it work (not tested).
 
 #### Install through poetry (recommended)
 
-If you have poetry installed in your machine, you can simply run `poetry install` from the root directory of ther erpository. This will create and install an Python environment from the `poetry.lock` file using your default poetry settings. Note that if you do not have poetry configure to create the Python environments on your working directory, they will be created in a default location, to change this setting in poetry, run `poetry config virtualenvs.in-project true` before creating the environment.
+If you have poetry installed in your machine, you can simply run `poetry install` from the root directory of the repository. This will create and install a Python environment from the `poetry.lock` file using your default poetry settings. Note that if you do not have Poetry configured to create the Python environments in your working directory, they will be created in a default location, to change this setting in poetry, run `poetry config virtualenvs.in-project true` before creating the environment.
 
 #### Install through pip
 
-Alternatively, a `requirements.txt` is generated regularly from the `poetry.lock` file. The `requirements.txt` can be used in a traditional fashion to install the Python environment via `pip install`. However, note that these requirements may not be up to date at all times and you can generate them yourself by running `poetry export --format requirements.txt --with dev --output requirements.txt`. Once the requirements are there, you can install them using `pip` in a virtual environment which you can create with `venv`:
+Alternatively, a `requirements.txt` has been generated from the `poetry.lock` file. The `requirements.txt` can be used in a traditional fashion to install the Python environment via `pip install`. However, note that these requirements may not be up to date at all times and you can generate them yourself by running `poetry export --format requirements.txt --with dev --output requirements.txt`. Once you have the `requirements.txt`, you can install them using `pip` in a virtual environment which you can create with `venv`:
 
 ```bash
 python -m venv <MY_ENV>
