@@ -89,7 +89,7 @@ The same example can be found in the provided `driver.sh`.
 
 ## Formulation
 
-The problem formulation is included in this repository in a file called `heater_documentation.pdf`.
+The problem formulation is included in this repository in a file called `heater_model_documentation.pdf`.
 
 ## Q&A
 
