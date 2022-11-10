@@ -1,6 +1,6 @@
 ## Description
 
-This model is an optimisation framework to calculate the optimal schedule of a heater to maintain the temperature of a building withincertain boundsa.
+This model is an optimisation framework to calculate the optimal schedule of a heater to maintain the temperature of a building within certain bounds.
 
 This model is cast as a Linear Program (LP) using formal optimisation techniques.
 
