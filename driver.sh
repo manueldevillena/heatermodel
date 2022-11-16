@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python -m simulate -i instances/example.toml -o results/example -s cbc -d -m lp
+python -m simulate -i instances/example_bounds.toml -o results/example_bounds -s cbc -d -m lp
