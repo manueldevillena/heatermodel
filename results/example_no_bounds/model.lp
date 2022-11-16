@@ -84,7 +84,7 @@ objective_eqn:
 +0.015027379465652253 power_heater(17)
 +0.016143518207153339 power_heater(170)
 +0.016012123539097773 power_heater(171)
-+0.015831329386826371 power_heater(172)
++0.015831329386826375 power_heater(172)
 +0.015604229188410113 power_heater(173)
 +0.015334708691207968 power_heater(174)
 +0.01502737946565226 power_heater(175)
@@ -172,7 +172,7 @@ objective_eqn:
 +0.011929114273859081 power_heater(249)
 +0.016223265191793158 power_heater(25)
 +0.012316190484054619 power_heater(250)
-+0.012717105649312348 power_heater(251)
++0.01271710564931235 power_heater(251)
 +0.013125000000000001 power_heater(252)
 +0.013532894350687654 power_heater(253)
 +0.013933809515945382 power_heater(254)
@@ -180,7 +180,7 @@ objective_eqn:
 +0.01468749999999999 power_heater(256)
 +0.015027379465652255 power_heater(257)
 +0.015334708691207956 power_heater(258)
-+0.015604229188410102 power_heater(259)
++0.015604229188410099 power_heater(259)
 +0.016143518207153339 power_heater(26)
 +0.015831329386826371 power_heater(260)
 +0.01601212353909777 power_heater(261)
@@ -196,7 +196,7 @@ objective_eqn:
 +0.015334708691207961 power_heater(270)
 +0.01502737946565226 power_heater(271)
 +0.014687499999999997 power_heater(272)
-+0.014320885726140912 power_heater(273)
++0.01432088572614091 power_heater(273)
 +0.01393380951594537 power_heater(274)
 +0.013532894350687663 power_heater(275)
 +0.013125000000000012 power_heater(276)
@@ -227,8 +227,8 @@ objective_eqn:
 +0.012717105649312327 power_heater(299)
 +0.010237876460902228 power_heater(3)
 +0.015334708691207961 power_heater(30)
-+0.013125 power_heater(300)
-+0.013532894350687653 power_heater(301)
++0.013125000000000001 power_heater(300)
++0.013532894350687654 power_heater(301)
 +0.013933809515945361 power_heater(302)
 +0.014320885726140903 power_heater(303)
 +0.01468749999999999 power_heater(304)
@@ -247,11 +247,11 @@ objective_eqn:
 +0.015831329386826375 power_heater(316)
 +0.015604229188410106 power_heater(317)
 +0.015334708691207961 power_heater(318)
-+0.015027379465652262 power_heater(319)
++0.01502737946565226 power_heater(319)
 +0.014687500000000001 power_heater(32)
 +0.014687499999999999 power_heater(320)
 +0.014320885726140912 power_heater(321)
-+0.013933809515945392 power_heater(322)
++0.013933809515945394 power_heater(322)
 +0.013532894350687663 power_heater(323)
 +0.013125000000000012 power_heater(324)
 +0.012717105649312358 power_heater(325)
@@ -276,7 +276,7 @@ objective_eqn:
 +0.010915291308792031 power_heater(342)
 +0.011222620534347747 power_heater(343)
 +0.011562499999999993 power_heater(344)
-+0.011929114273859098 power_heater(345)
++0.0119291142738591 power_heater(345)
 +0.012316190484054619 power_heater(346)
 +0.012717105649312348 power_heater(347)
 +0.013124999999999979 power_heater(348)
@@ -391,7 +391,7 @@ s.t.
 
 c_e_temperature_house_eqn(0)_:
 +1 temperature_house(0)
-= 22
+= 24
 
 c_e_temperature_house_eqn(1)_:
 -1.25 power_heater(1)
@@ -1566,7 +1566,7 @@ c_e_temperature_house_eqn(234)_:
 c_e_temperature_house_eqn(235)_:
 -1.25 power_heater(235)
 +1 temperature_house(235)
-= 15.659345815100069
+= 15.659345815100071
 
 c_e_temperature_house_eqn(236)_:
 -1.25 power_heater(236)
@@ -1931,7 +1931,7 @@ c_e_temperature_house_eqn(307)_:
 c_e_temperature_house_eqn(308)_:
 -1.25 power_heater(308)
 +1 temperature_house(308)
-= 14.292893218813452
+= 14.29289321881345
 
 c_e_temperature_house_eqn(309)_:
 -1.25 power_heater(309)
@@ -2312,390 +2312,390 @@ c_e_ONE_VAR_CONSTANT:
 ONE_VAR_CONSTANT = 1.0
 
 bounds
-   21 <= temperature_house(0) <= 25
-   21 <= temperature_house(1) <= 25
-   21 <= temperature_house(2) <= 25
-   21 <= temperature_house(3) <= 25
-   21 <= temperature_house(4) <= 25
-   21 <= temperature_house(5) <= 25
-   21 <= temperature_house(6) <= 25
-   21 <= temperature_house(7) <= 25
-   21 <= temperature_house(8) <= 25
-   21 <= temperature_house(9) <= 25
-   21 <= temperature_house(10) <= 25
-   21 <= temperature_house(11) <= 25
-   21 <= temperature_house(12) <= 25
-   21 <= temperature_house(13) <= 25
-   21 <= temperature_house(14) <= 25
-   21 <= temperature_house(15) <= 25
-   21 <= temperature_house(16) <= 25
-   21 <= temperature_house(17) <= 25
-   21 <= temperature_house(18) <= 25
-   21 <= temperature_house(19) <= 25
-   21 <= temperature_house(20) <= 25
-   21 <= temperature_house(21) <= 25
-   21 <= temperature_house(22) <= 25
-   21 <= temperature_house(23) <= 25
-   21 <= temperature_house(24) <= 25
-   21 <= temperature_house(25) <= 25
-   21 <= temperature_house(26) <= 25
-   21 <= temperature_house(27) <= 25
-   21 <= temperature_house(28) <= 25
-   21 <= temperature_house(29) <= 25
-   21 <= temperature_house(30) <= 25
-   21 <= temperature_house(31) <= 25
-   21 <= temperature_house(32) <= 25
-   21 <= temperature_house(33) <= 25
-   21 <= temperature_house(34) <= 25
-   21 <= temperature_house(35) <= 25
-   21 <= temperature_house(36) <= 25
-   21 <= temperature_house(37) <= 25
-   21 <= temperature_house(38) <= 25
-   21 <= temperature_house(39) <= 25
-   21 <= temperature_house(40) <= 25
-   21 <= temperature_house(41) <= 25
-   21 <= temperature_house(42) <= 25
-   21 <= temperature_house(43) <= 25
-   21 <= temperature_house(44) <= 25
-   21 <= temperature_house(45) <= 25
-   21 <= temperature_house(46) <= 25
-   21 <= temperature_house(47) <= 25
-   21 <= temperature_house(48) <= 25
-   21 <= temperature_house(49) <= 25
-   21 <= temperature_house(50) <= 25
-   21 <= temperature_house(51) <= 25
-   21 <= temperature_house(52) <= 25
-   21 <= temperature_house(53) <= 25
-   21 <= temperature_house(54) <= 25
-   21 <= temperature_house(55) <= 25
-   21 <= temperature_house(56) <= 25
-   21 <= temperature_house(57) <= 25
-   21 <= temperature_house(58) <= 25
-   21 <= temperature_house(59) <= 25
-   21 <= temperature_house(60) <= 25
-   21 <= temperature_house(61) <= 25
-   21 <= temperature_house(62) <= 25
-   21 <= temperature_house(63) <= 25
-   21 <= temperature_house(64) <= 25
-   21 <= temperature_house(65) <= 25
-   21 <= temperature_house(66) <= 25
-   21 <= temperature_house(67) <= 25
-   21 <= temperature_house(68) <= 25
-   21 <= temperature_house(69) <= 25
-   21 <= temperature_house(70) <= 25
-   21 <= temperature_house(71) <= 25
-   21 <= temperature_house(72) <= 25
-   21 <= temperature_house(73) <= 25
-   21 <= temperature_house(74) <= 25
-   21 <= temperature_house(75) <= 25
-   21 <= temperature_house(76) <= 25
-   21 <= temperature_house(77) <= 25
-   21 <= temperature_house(78) <= 25
-   21 <= temperature_house(79) <= 25
-   21 <= temperature_house(80) <= 25
-   21 <= temperature_house(81) <= 25
-   21 <= temperature_house(82) <= 25
-   21 <= temperature_house(83) <= 25
-   21 <= temperature_house(84) <= 25
-   21 <= temperature_house(85) <= 25
-   21 <= temperature_house(86) <= 25
-   21 <= temperature_house(87) <= 25
-   21 <= temperature_house(88) <= 25
-   21 <= temperature_house(89) <= 25
-   21 <= temperature_house(90) <= 25
-   21 <= temperature_house(91) <= 25
-   21 <= temperature_house(92) <= 25
-   21 <= temperature_house(93) <= 25
-   21 <= temperature_house(94) <= 25
-   21 <= temperature_house(95) <= 25
-   21 <= temperature_house(96) <= 25
-   21 <= temperature_house(97) <= 25
-   21 <= temperature_house(98) <= 25
-   21 <= temperature_house(99) <= 25
-   21 <= temperature_house(100) <= 25
-   21 <= temperature_house(101) <= 25
-   21 <= temperature_house(102) <= 25
-   21 <= temperature_house(103) <= 25
-   21 <= temperature_house(104) <= 25
-   21 <= temperature_house(105) <= 25
-   21 <= temperature_house(106) <= 25
-   21 <= temperature_house(107) <= 25
-   21 <= temperature_house(108) <= 25
-   21 <= temperature_house(109) <= 25
-   21 <= temperature_house(110) <= 25
-   21 <= temperature_house(111) <= 25
-   21 <= temperature_house(112) <= 25
-   21 <= temperature_house(113) <= 25
-   21 <= temperature_house(114) <= 25
-   21 <= temperature_house(115) <= 25
-   21 <= temperature_house(116) <= 25
-   21 <= temperature_house(117) <= 25
-   21 <= temperature_house(118) <= 25
-   21 <= temperature_house(119) <= 25
-   21 <= temperature_house(120) <= 25
-   21 <= temperature_house(121) <= 25
-   21 <= temperature_house(122) <= 25
-   21 <= temperature_house(123) <= 25
-   21 <= temperature_house(124) <= 25
-   21 <= temperature_house(125) <= 25
-   21 <= temperature_house(126) <= 25
-   21 <= temperature_house(127) <= 25
-   21 <= temperature_house(128) <= 25
-   21 <= temperature_house(129) <= 25
-   21 <= temperature_house(130) <= 25
-   21 <= temperature_house(131) <= 25
-   21 <= temperature_house(132) <= 25
-   21 <= temperature_house(133) <= 25
-   21 <= temperature_house(134) <= 25
-   21 <= temperature_house(135) <= 25
-   21 <= temperature_house(136) <= 25
-   21 <= temperature_house(137) <= 25
-   21 <= temperature_house(138) <= 25
-   21 <= temperature_house(139) <= 25
-   21 <= temperature_house(140) <= 25
-   21 <= temperature_house(141) <= 25
-   21 <= temperature_house(142) <= 25
-   21 <= temperature_house(143) <= 25
-   21 <= temperature_house(144) <= 25
-   21 <= temperature_house(145) <= 25
-   21 <= temperature_house(146) <= 25
-   21 <= temperature_house(147) <= 25
-   21 <= temperature_house(148) <= 25
-   21 <= temperature_house(149) <= 25
-   21 <= temperature_house(150) <= 25
-   21 <= temperature_house(151) <= 25
-   21 <= temperature_house(152) <= 25
-   21 <= temperature_house(153) <= 25
-   21 <= temperature_house(154) <= 25
-   21 <= temperature_house(155) <= 25
-   21 <= temperature_house(156) <= 25
-   21 <= temperature_house(157) <= 25
-   21 <= temperature_house(158) <= 25
-   21 <= temperature_house(159) <= 25
-   21 <= temperature_house(160) <= 25
-   21 <= temperature_house(161) <= 25
-   21 <= temperature_house(162) <= 25
-   21 <= temperature_house(163) <= 25
-   21 <= temperature_house(164) <= 25
-   21 <= temperature_house(165) <= 25
-   21 <= temperature_house(166) <= 25
-   21 <= temperature_house(167) <= 25
-   21 <= temperature_house(168) <= 25
-   21 <= temperature_house(169) <= 25
-   21 <= temperature_house(170) <= 25
-   21 <= temperature_house(171) <= 25
-   21 <= temperature_house(172) <= 25
-   21 <= temperature_house(173) <= 25
-   21 <= temperature_house(174) <= 25
-   21 <= temperature_house(175) <= 25
-   21 <= temperature_house(176) <= 25
-   21 <= temperature_house(177) <= 25
-   21 <= temperature_house(178) <= 25
-   21 <= temperature_house(179) <= 25
-   21 <= temperature_house(180) <= 25
-   21 <= temperature_house(181) <= 25
-   21 <= temperature_house(182) <= 25
-   21 <= temperature_house(183) <= 25
-   21 <= temperature_house(184) <= 25
-   21 <= temperature_house(185) <= 25
-   21 <= temperature_house(186) <= 25
-   21 <= temperature_house(187) <= 25
-   21 <= temperature_house(188) <= 25
-   21 <= temperature_house(189) <= 25
-   21 <= temperature_house(190) <= 25
-   21 <= temperature_house(191) <= 25
-   21 <= temperature_house(192) <= 25
-   21 <= temperature_house(193) <= 25
-   21 <= temperature_house(194) <= 25
-   21 <= temperature_house(195) <= 25
-   21 <= temperature_house(196) <= 25
-   21 <= temperature_house(197) <= 25
-   21 <= temperature_house(198) <= 25
-   21 <= temperature_house(199) <= 25
-   21 <= temperature_house(200) <= 25
-   21 <= temperature_house(201) <= 25
-   21 <= temperature_house(202) <= 25
-   21 <= temperature_house(203) <= 25
-   21 <= temperature_house(204) <= 25
-   21 <= temperature_house(205) <= 25
-   21 <= temperature_house(206) <= 25
-   21 <= temperature_house(207) <= 25
-   21 <= temperature_house(208) <= 25
-   21 <= temperature_house(209) <= 25
-   21 <= temperature_house(210) <= 25
-   21 <= temperature_house(211) <= 25
-   21 <= temperature_house(212) <= 25
-   21 <= temperature_house(213) <= 25
-   21 <= temperature_house(214) <= 25
-   21 <= temperature_house(215) <= 25
-   21 <= temperature_house(216) <= 25
-   21 <= temperature_house(217) <= 25
-   21 <= temperature_house(218) <= 25
-   21 <= temperature_house(219) <= 25
-   21 <= temperature_house(220) <= 25
-   21 <= temperature_house(221) <= 25
-   21 <= temperature_house(222) <= 25
-   21 <= temperature_house(223) <= 25
-   21 <= temperature_house(224) <= 25
-   21 <= temperature_house(225) <= 25
-   21 <= temperature_house(226) <= 25
-   21 <= temperature_house(227) <= 25
-   21 <= temperature_house(228) <= 25
-   21 <= temperature_house(229) <= 25
-   21 <= temperature_house(230) <= 25
-   21 <= temperature_house(231) <= 25
-   21 <= temperature_house(232) <= 25
-   21 <= temperature_house(233) <= 25
-   21 <= temperature_house(234) <= 25
-   21 <= temperature_house(235) <= 25
-   21 <= temperature_house(236) <= 25
-   21 <= temperature_house(237) <= 25
-   21 <= temperature_house(238) <= 25
-   21 <= temperature_house(239) <= 25
-   21 <= temperature_house(240) <= 25
-   21 <= temperature_house(241) <= 25
-   21 <= temperature_house(242) <= 25
-   21 <= temperature_house(243) <= 25
-   21 <= temperature_house(244) <= 25
-   21 <= temperature_house(245) <= 25
-   21 <= temperature_house(246) <= 25
-   21 <= temperature_house(247) <= 25
-   21 <= temperature_house(248) <= 25
-   21 <= temperature_house(249) <= 25
-   21 <= temperature_house(250) <= 25
-   21 <= temperature_house(251) <= 25
-   21 <= temperature_house(252) <= 25
-   21 <= temperature_house(253) <= 25
-   21 <= temperature_house(254) <= 25
-   21 <= temperature_house(255) <= 25
-   21 <= temperature_house(256) <= 25
-   21 <= temperature_house(257) <= 25
-   21 <= temperature_house(258) <= 25
-   21 <= temperature_house(259) <= 25
-   21 <= temperature_house(260) <= 25
-   21 <= temperature_house(261) <= 25
-   21 <= temperature_house(262) <= 25
-   21 <= temperature_house(263) <= 25
-   21 <= temperature_house(264) <= 25
-   21 <= temperature_house(265) <= 25
-   21 <= temperature_house(266) <= 25
-   21 <= temperature_house(267) <= 25
-   21 <= temperature_house(268) <= 25
-   21 <= temperature_house(269) <= 25
-   21 <= temperature_house(270) <= 25
-   21 <= temperature_house(271) <= 25
-   21 <= temperature_house(272) <= 25
-   21 <= temperature_house(273) <= 25
-   21 <= temperature_house(274) <= 25
-   21 <= temperature_house(275) <= 25
-   21 <= temperature_house(276) <= 25
-   21 <= temperature_house(277) <= 25
-   21 <= temperature_house(278) <= 25
-   21 <= temperature_house(279) <= 25
-   21 <= temperature_house(280) <= 25
-   21 <= temperature_house(281) <= 25
-   21 <= temperature_house(282) <= 25
-   21 <= temperature_house(283) <= 25
-   21 <= temperature_house(284) <= 25
-   21 <= temperature_house(285) <= 25
-   21 <= temperature_house(286) <= 25
-   21 <= temperature_house(287) <= 25
-   21 <= temperature_house(288) <= 25
-   21 <= temperature_house(289) <= 25
-   21 <= temperature_house(290) <= 25
-   21 <= temperature_house(291) <= 25
-   21 <= temperature_house(292) <= 25
-   21 <= temperature_house(293) <= 25
-   21 <= temperature_house(294) <= 25
-   21 <= temperature_house(295) <= 25
-   21 <= temperature_house(296) <= 25
-   21 <= temperature_house(297) <= 25
-   21 <= temperature_house(298) <= 25
-   21 <= temperature_house(299) <= 25
-   21 <= temperature_house(300) <= 25
-   21 <= temperature_house(301) <= 25
-   21 <= temperature_house(302) <= 25
-   21 <= temperature_house(303) <= 25
-   21 <= temperature_house(304) <= 25
-   21 <= temperature_house(305) <= 25
-   21 <= temperature_house(306) <= 25
-   21 <= temperature_house(307) <= 25
-   21 <= temperature_house(308) <= 25
-   21 <= temperature_house(309) <= 25
-   21 <= temperature_house(310) <= 25
-   21 <= temperature_house(311) <= 25
-   21 <= temperature_house(312) <= 25
-   21 <= temperature_house(313) <= 25
-   21 <= temperature_house(314) <= 25
-   21 <= temperature_house(315) <= 25
-   21 <= temperature_house(316) <= 25
-   21 <= temperature_house(317) <= 25
-   21 <= temperature_house(318) <= 25
-   21 <= temperature_house(319) <= 25
-   21 <= temperature_house(320) <= 25
-   21 <= temperature_house(321) <= 25
-   21 <= temperature_house(322) <= 25
-   21 <= temperature_house(323) <= 25
-   21 <= temperature_house(324) <= 25
-   21 <= temperature_house(325) <= 25
-   21 <= temperature_house(326) <= 25
-   21 <= temperature_house(327) <= 25
-   21 <= temperature_house(328) <= 25
-   21 <= temperature_house(329) <= 25
-   21 <= temperature_house(330) <= 25
-   21 <= temperature_house(331) <= 25
-   21 <= temperature_house(332) <= 25
-   21 <= temperature_house(333) <= 25
-   21 <= temperature_house(334) <= 25
-   21 <= temperature_house(335) <= 25
-   21 <= temperature_house(336) <= 25
-   21 <= temperature_house(337) <= 25
-   21 <= temperature_house(338) <= 25
-   21 <= temperature_house(339) <= 25
-   21 <= temperature_house(340) <= 25
-   21 <= temperature_house(341) <= 25
-   21 <= temperature_house(342) <= 25
-   21 <= temperature_house(343) <= 25
-   21 <= temperature_house(344) <= 25
-   21 <= temperature_house(345) <= 25
-   21 <= temperature_house(346) <= 25
-   21 <= temperature_house(347) <= 25
-   21 <= temperature_house(348) <= 25
-   21 <= temperature_house(349) <= 25
-   21 <= temperature_house(350) <= 25
-   21 <= temperature_house(351) <= 25
-   21 <= temperature_house(352) <= 25
-   21 <= temperature_house(353) <= 25
-   21 <= temperature_house(354) <= 25
-   21 <= temperature_house(355) <= 25
-   21 <= temperature_house(356) <= 25
-   21 <= temperature_house(357) <= 25
-   21 <= temperature_house(358) <= 25
-   21 <= temperature_house(359) <= 25
-   21 <= temperature_house(360) <= 25
-   21 <= temperature_house(361) <= 25
-   21 <= temperature_house(362) <= 25
-   21 <= temperature_house(363) <= 25
-   21 <= temperature_house(364) <= 25
-   21 <= temperature_house(365) <= 25
-   21 <= temperature_house(366) <= 25
-   21 <= temperature_house(367) <= 25
-   21 <= temperature_house(368) <= 25
-   21 <= temperature_house(369) <= 25
-   21 <= temperature_house(370) <= 25
-   21 <= temperature_house(371) <= 25
-   21 <= temperature_house(372) <= 25
-   21 <= temperature_house(373) <= 25
-   21 <= temperature_house(374) <= 25
-   21 <= temperature_house(375) <= 25
-   21 <= temperature_house(376) <= 25
-   21 <= temperature_house(377) <= 25
-   21 <= temperature_house(378) <= 25
-   21 <= temperature_house(379) <= 25
-   21 <= temperature_house(380) <= 25
-   21 <= temperature_house(381) <= 25
-   21 <= temperature_house(382) <= 25
-   21 <= temperature_house(383) <= 25
+   24 <= temperature_house(0) <= 24
+   24 <= temperature_house(1) <= 24
+   24 <= temperature_house(2) <= 24
+   24 <= temperature_house(3) <= 24
+   24 <= temperature_house(4) <= 24
+   24 <= temperature_house(5) <= 24
+   24 <= temperature_house(6) <= 24
+   24 <= temperature_house(7) <= 24
+   24 <= temperature_house(8) <= 24
+   24 <= temperature_house(9) <= 24
+   24 <= temperature_house(10) <= 24
+   24 <= temperature_house(11) <= 24
+   24 <= temperature_house(12) <= 24
+   24 <= temperature_house(13) <= 24
+   24 <= temperature_house(14) <= 24
+   24 <= temperature_house(15) <= 24
+   24 <= temperature_house(16) <= 24
+   24 <= temperature_house(17) <= 24
+   24 <= temperature_house(18) <= 24
+   24 <= temperature_house(19) <= 24
+   24 <= temperature_house(20) <= 24
+   24 <= temperature_house(21) <= 24
+   24 <= temperature_house(22) <= 24
+   24 <= temperature_house(23) <= 24
+   24 <= temperature_house(24) <= 24
+   24 <= temperature_house(25) <= 24
+   24 <= temperature_house(26) <= 24
+   24 <= temperature_house(27) <= 24
+   24 <= temperature_house(28) <= 24
+   24 <= temperature_house(29) <= 24
+   24 <= temperature_house(30) <= 24
+   24 <= temperature_house(31) <= 24
+   24 <= temperature_house(32) <= 24
+   24 <= temperature_house(33) <= 24
+   24 <= temperature_house(34) <= 24
+   24 <= temperature_house(35) <= 24
+   24 <= temperature_house(36) <= 24
+   24 <= temperature_house(37) <= 24
+   24 <= temperature_house(38) <= 24
+   24 <= temperature_house(39) <= 24
+   24 <= temperature_house(40) <= 24
+   24 <= temperature_house(41) <= 24
+   24 <= temperature_house(42) <= 24
+   24 <= temperature_house(43) <= 24
+   24 <= temperature_house(44) <= 24
+   24 <= temperature_house(45) <= 24
+   24 <= temperature_house(46) <= 24
+   24 <= temperature_house(47) <= 24
+   24 <= temperature_house(48) <= 24
+   24 <= temperature_house(49) <= 24
+   24 <= temperature_house(50) <= 24
+   24 <= temperature_house(51) <= 24
+   24 <= temperature_house(52) <= 24
+   24 <= temperature_house(53) <= 24
+   24 <= temperature_house(54) <= 24
+   24 <= temperature_house(55) <= 24
+   24 <= temperature_house(56) <= 24
+   24 <= temperature_house(57) <= 24
+   24 <= temperature_house(58) <= 24
+   24 <= temperature_house(59) <= 24
+   24 <= temperature_house(60) <= 24
+   24 <= temperature_house(61) <= 24
+   24 <= temperature_house(62) <= 24
+   24 <= temperature_house(63) <= 24
+   24 <= temperature_house(64) <= 24
+   24 <= temperature_house(65) <= 24
+   24 <= temperature_house(66) <= 24
+   24 <= temperature_house(67) <= 24
+   24 <= temperature_house(68) <= 24
+   24 <= temperature_house(69) <= 24
+   24 <= temperature_house(70) <= 24
+   24 <= temperature_house(71) <= 24
+   24 <= temperature_house(72) <= 24
+   24 <= temperature_house(73) <= 24
+   24 <= temperature_house(74) <= 24
+   24 <= temperature_house(75) <= 24
+   24 <= temperature_house(76) <= 24
+   24 <= temperature_house(77) <= 24
+   24 <= temperature_house(78) <= 24
+   24 <= temperature_house(79) <= 24
+   24 <= temperature_house(80) <= 24
+   24 <= temperature_house(81) <= 24
+   24 <= temperature_house(82) <= 24
+   24 <= temperature_house(83) <= 24
+   24 <= temperature_house(84) <= 24
+   24 <= temperature_house(85) <= 24
+   24 <= temperature_house(86) <= 24
+   24 <= temperature_house(87) <= 24
+   24 <= temperature_house(88) <= 24
+   24 <= temperature_house(89) <= 24
+   24 <= temperature_house(90) <= 24
+   24 <= temperature_house(91) <= 24
+   24 <= temperature_house(92) <= 24
+   24 <= temperature_house(93) <= 24
+   24 <= temperature_house(94) <= 24
+   24 <= temperature_house(95) <= 24
+   24 <= temperature_house(96) <= 24
+   24 <= temperature_house(97) <= 24
+   24 <= temperature_house(98) <= 24
+   24 <= temperature_house(99) <= 24
+   24 <= temperature_house(100) <= 24
+   24 <= temperature_house(101) <= 24
+   24 <= temperature_house(102) <= 24
+   24 <= temperature_house(103) <= 24
+   24 <= temperature_house(104) <= 24
+   24 <= temperature_house(105) <= 24
+   24 <= temperature_house(106) <= 24
+   24 <= temperature_house(107) <= 24
+   24 <= temperature_house(108) <= 24
+   24 <= temperature_house(109) <= 24
+   24 <= temperature_house(110) <= 24
+   24 <= temperature_house(111) <= 24
+   24 <= temperature_house(112) <= 24
+   24 <= temperature_house(113) <= 24
+   24 <= temperature_house(114) <= 24
+   24 <= temperature_house(115) <= 24
+   24 <= temperature_house(116) <= 24
+   24 <= temperature_house(117) <= 24
+   24 <= temperature_house(118) <= 24
+   24 <= temperature_house(119) <= 24
+   24 <= temperature_house(120) <= 24
+   24 <= temperature_house(121) <= 24
+   24 <= temperature_house(122) <= 24
+   24 <= temperature_house(123) <= 24
+   24 <= temperature_house(124) <= 24
+   24 <= temperature_house(125) <= 24
+   24 <= temperature_house(126) <= 24
+   24 <= temperature_house(127) <= 24
+   24 <= temperature_house(128) <= 24
+   24 <= temperature_house(129) <= 24
+   24 <= temperature_house(130) <= 24
+   24 <= temperature_house(131) <= 24
+   24 <= temperature_house(132) <= 24
+   24 <= temperature_house(133) <= 24
+   24 <= temperature_house(134) <= 24
+   24 <= temperature_house(135) <= 24
+   24 <= temperature_house(136) <= 24
+   24 <= temperature_house(137) <= 24
+   24 <= temperature_house(138) <= 24
+   24 <= temperature_house(139) <= 24
+   24 <= temperature_house(140) <= 24
+   24 <= temperature_house(141) <= 24
+   24 <= temperature_house(142) <= 24
+   24 <= temperature_house(143) <= 24
+   24 <= temperature_house(144) <= 24
+   24 <= temperature_house(145) <= 24
+   24 <= temperature_house(146) <= 24
+   24 <= temperature_house(147) <= 24
+   24 <= temperature_house(148) <= 24
+   24 <= temperature_house(149) <= 24
+   24 <= temperature_house(150) <= 24
+   24 <= temperature_house(151) <= 24
+   24 <= temperature_house(152) <= 24
+   24 <= temperature_house(153) <= 24
+   24 <= temperature_house(154) <= 24
+   24 <= temperature_house(155) <= 24
+   24 <= temperature_house(156) <= 24
+   24 <= temperature_house(157) <= 24
+   24 <= temperature_house(158) <= 24
+   24 <= temperature_house(159) <= 24
+   24 <= temperature_house(160) <= 24
+   24 <= temperature_house(161) <= 24
+   24 <= temperature_house(162) <= 24
+   24 <= temperature_house(163) <= 24
+   24 <= temperature_house(164) <= 24
+   24 <= temperature_house(165) <= 24
+   24 <= temperature_house(166) <= 24
+   24 <= temperature_house(167) <= 24
+   24 <= temperature_house(168) <= 24
+   24 <= temperature_house(169) <= 24
+   24 <= temperature_house(170) <= 24
+   24 <= temperature_house(171) <= 24
+   24 <= temperature_house(172) <= 24
+   24 <= temperature_house(173) <= 24
+   24 <= temperature_house(174) <= 24
+   24 <= temperature_house(175) <= 24
+   24 <= temperature_house(176) <= 24
+   24 <= temperature_house(177) <= 24
+   24 <= temperature_house(178) <= 24
+   24 <= temperature_house(179) <= 24
+   24 <= temperature_house(180) <= 24
+   24 <= temperature_house(181) <= 24
+   24 <= temperature_house(182) <= 24
+   24 <= temperature_house(183) <= 24
+   24 <= temperature_house(184) <= 24
+   24 <= temperature_house(185) <= 24
+   24 <= temperature_house(186) <= 24
+   24 <= temperature_house(187) <= 24
+   24 <= temperature_house(188) <= 24
+   24 <= temperature_house(189) <= 24
+   24 <= temperature_house(190) <= 24
+   24 <= temperature_house(191) <= 24
+   24 <= temperature_house(192) <= 24
+   24 <= temperature_house(193) <= 24
+   24 <= temperature_house(194) <= 24
+   24 <= temperature_house(195) <= 24
+   24 <= temperature_house(196) <= 24
+   24 <= temperature_house(197) <= 24
+   24 <= temperature_house(198) <= 24
+   24 <= temperature_house(199) <= 24
+   24 <= temperature_house(200) <= 24
+   24 <= temperature_house(201) <= 24
+   24 <= temperature_house(202) <= 24
+   24 <= temperature_house(203) <= 24
+   24 <= temperature_house(204) <= 24
+   24 <= temperature_house(205) <= 24
+   24 <= temperature_house(206) <= 24
+   24 <= temperature_house(207) <= 24
+   24 <= temperature_house(208) <= 24
+   24 <= temperature_house(209) <= 24
+   24 <= temperature_house(210) <= 24
+   24 <= temperature_house(211) <= 24
+   24 <= temperature_house(212) <= 24
+   24 <= temperature_house(213) <= 24
+   24 <= temperature_house(214) <= 24
+   24 <= temperature_house(215) <= 24
+   24 <= temperature_house(216) <= 24
+   24 <= temperature_house(217) <= 24
+   24 <= temperature_house(218) <= 24
+   24 <= temperature_house(219) <= 24
+   24 <= temperature_house(220) <= 24
+   24 <= temperature_house(221) <= 24
+   24 <= temperature_house(222) <= 24
+   24 <= temperature_house(223) <= 24
+   24 <= temperature_house(224) <= 24
+   24 <= temperature_house(225) <= 24
+   24 <= temperature_house(226) <= 24
+   24 <= temperature_house(227) <= 24
+   24 <= temperature_house(228) <= 24
+   24 <= temperature_house(229) <= 24
+   24 <= temperature_house(230) <= 24
+   24 <= temperature_house(231) <= 24
+   24 <= temperature_house(232) <= 24
+   24 <= temperature_house(233) <= 24
+   24 <= temperature_house(234) <= 24
+   24 <= temperature_house(235) <= 24
+   24 <= temperature_house(236) <= 24
+   24 <= temperature_house(237) <= 24
+   24 <= temperature_house(238) <= 24
+   24 <= temperature_house(239) <= 24
+   24 <= temperature_house(240) <= 24
+   24 <= temperature_house(241) <= 24
+   24 <= temperature_house(242) <= 24
+   24 <= temperature_house(243) <= 24
+   24 <= temperature_house(244) <= 24
+   24 <= temperature_house(245) <= 24
+   24 <= temperature_house(246) <= 24
+   24 <= temperature_house(247) <= 24
+   24 <= temperature_house(248) <= 24
+   24 <= temperature_house(249) <= 24
+   24 <= temperature_house(250) <= 24
+   24 <= temperature_house(251) <= 24
+   24 <= temperature_house(252) <= 24
+   24 <= temperature_house(253) <= 24
+   24 <= temperature_house(254) <= 24
+   24 <= temperature_house(255) <= 24
+   24 <= temperature_house(256) <= 24
+   24 <= temperature_house(257) <= 24
+   24 <= temperature_house(258) <= 24
+   24 <= temperature_house(259) <= 24
+   24 <= temperature_house(260) <= 24
+   24 <= temperature_house(261) <= 24
+   24 <= temperature_house(262) <= 24
+   24 <= temperature_house(263) <= 24
+   24 <= temperature_house(264) <= 24
+   24 <= temperature_house(265) <= 24
+   24 <= temperature_house(266) <= 24
+   24 <= temperature_house(267) <= 24
+   24 <= temperature_house(268) <= 24
+   24 <= temperature_house(269) <= 24
+   24 <= temperature_house(270) <= 24
+   24 <= temperature_house(271) <= 24
+   24 <= temperature_house(272) <= 24
+   24 <= temperature_house(273) <= 24
+   24 <= temperature_house(274) <= 24
+   24 <= temperature_house(275) <= 24
+   24 <= temperature_house(276) <= 24
+   24 <= temperature_house(277) <= 24
+   24 <= temperature_house(278) <= 24
+   24 <= temperature_house(279) <= 24
+   24 <= temperature_house(280) <= 24
+   24 <= temperature_house(281) <= 24
+   24 <= temperature_house(282) <= 24
+   24 <= temperature_house(283) <= 24
+   24 <= temperature_house(284) <= 24
+   24 <= temperature_house(285) <= 24
+   24 <= temperature_house(286) <= 24
+   24 <= temperature_house(287) <= 24
+   24 <= temperature_house(288) <= 24
+   24 <= temperature_house(289) <= 24
+   24 <= temperature_house(290) <= 24
+   24 <= temperature_house(291) <= 24
+   24 <= temperature_house(292) <= 24
+   24 <= temperature_house(293) <= 24
+   24 <= temperature_house(294) <= 24
+   24 <= temperature_house(295) <= 24
+   24 <= temperature_house(296) <= 24
+   24 <= temperature_house(297) <= 24
+   24 <= temperature_house(298) <= 24
+   24 <= temperature_house(299) <= 24
+   24 <= temperature_house(300) <= 24
+   24 <= temperature_house(301) <= 24
+   24 <= temperature_house(302) <= 24
+   24 <= temperature_house(303) <= 24
+   24 <= temperature_house(304) <= 24
+   24 <= temperature_house(305) <= 24
+   24 <= temperature_house(306) <= 24
+   24 <= temperature_house(307) <= 24
+   24 <= temperature_house(308) <= 24
+   24 <= temperature_house(309) <= 24
+   24 <= temperature_house(310) <= 24
+   24 <= temperature_house(311) <= 24
+   24 <= temperature_house(312) <= 24
+   24 <= temperature_house(313) <= 24
+   24 <= temperature_house(314) <= 24
+   24 <= temperature_house(315) <= 24
+   24 <= temperature_house(316) <= 24
+   24 <= temperature_house(317) <= 24
+   24 <= temperature_house(318) <= 24
+   24 <= temperature_house(319) <= 24
+   24 <= temperature_house(320) <= 24
+   24 <= temperature_house(321) <= 24
+   24 <= temperature_house(322) <= 24
+   24 <= temperature_house(323) <= 24
+   24 <= temperature_house(324) <= 24
+   24 <= temperature_house(325) <= 24
+   24 <= temperature_house(326) <= 24
+   24 <= temperature_house(327) <= 24
+   24 <= temperature_house(328) <= 24
+   24 <= temperature_house(329) <= 24
+   24 <= temperature_house(330) <= 24
+   24 <= temperature_house(331) <= 24
+   24 <= temperature_house(332) <= 24
+   24 <= temperature_house(333) <= 24
+   24 <= temperature_house(334) <= 24
+   24 <= temperature_house(335) <= 24
+   24 <= temperature_house(336) <= 24
+   24 <= temperature_house(337) <= 24
+   24 <= temperature_house(338) <= 24
+   24 <= temperature_house(339) <= 24
+   24 <= temperature_house(340) <= 24
+   24 <= temperature_house(341) <= 24
+   24 <= temperature_house(342) <= 24
+   24 <= temperature_house(343) <= 24
+   24 <= temperature_house(344) <= 24
+   24 <= temperature_house(345) <= 24
+   24 <= temperature_house(346) <= 24
+   24 <= temperature_house(347) <= 24
+   24 <= temperature_house(348) <= 24
+   24 <= temperature_house(349) <= 24
+   24 <= temperature_house(350) <= 24
+   24 <= temperature_house(351) <= 24
+   24 <= temperature_house(352) <= 24
+   24 <= temperature_house(353) <= 24
+   24 <= temperature_house(354) <= 24
+   24 <= temperature_house(355) <= 24
+   24 <= temperature_house(356) <= 24
+   24 <= temperature_house(357) <= 24
+   24 <= temperature_house(358) <= 24
+   24 <= temperature_house(359) <= 24
+   24 <= temperature_house(360) <= 24
+   24 <= temperature_house(361) <= 24
+   24 <= temperature_house(362) <= 24
+   24 <= temperature_house(363) <= 24
+   24 <= temperature_house(364) <= 24
+   24 <= temperature_house(365) <= 24
+   24 <= temperature_house(366) <= 24
+   24 <= temperature_house(367) <= 24
+   24 <= temperature_house(368) <= 24
+   24 <= temperature_house(369) <= 24
+   24 <= temperature_house(370) <= 24
+   24 <= temperature_house(371) <= 24
+   24 <= temperature_house(372) <= 24
+   24 <= temperature_house(373) <= 24
+   24 <= temperature_house(374) <= 24
+   24 <= temperature_house(375) <= 24
+   24 <= temperature_house(376) <= 24
+   24 <= temperature_house(377) <= 24
+   24 <= temperature_house(378) <= 24
+   24 <= temperature_house(379) <= 24
+   24 <= temperature_house(380) <= 24
+   24 <= temperature_house(381) <= 24
+   24 <= temperature_house(382) <= 24
+   24 <= temperature_house(383) <= 24
    4 <= power_heater(0) <= 8
    4 <= power_heater(1) <= 8
    4 <= power_heater(2) <= 8

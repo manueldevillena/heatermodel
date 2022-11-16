@@ -1,5 +1,6 @@
 import numpy as np
 import numpy.typing as npt
+import os.path as osp
 import pandas as pd
 
 from . import Inputs, Optimiser
@@ -45,6 +46,7 @@ class Simulator:
         """Runs the simulation
         """
         results = self.__run_simulation()
+        self.__save_results(results)
 
         return results
 
@@ -77,3 +79,9 @@ class Simulator:
         results["objective_function"] = pd.Series(self._optimiser._model.objective_eqn.expr())
 
         return results
+
+    def __save_results(self, results: dict[str, pd.Series]) -> None:
+        """Saves the results in a csv
+        """
+        for key, val in results.items():
+            val.to_csv(f"{osp.join(self._output_path, key)}.csv")
